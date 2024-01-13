@@ -1,0 +1,5 @@
+Student name: Berk Yildirim
+Student number: 721730
+Student class: INFVT1b
+GitHub Repository: https://github.com/Berk075/web-markup2324
+GitHub Pages URL: https://github.com/Berk075/web-markup2324

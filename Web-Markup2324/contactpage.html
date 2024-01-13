@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Touristengids Zaanstad">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Berk Yildirim">
+    <title>Contact</title>
+    <link rel="icon" type="image/ico" href="Images/Favicon.png" alt="Favicon">
+    <link rel="stylesheet" href="contactpage.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap">
+</head>
+
+<body>
+    <header>
+        <img src="Images/Logowebdesign/Logo.png" alt="Mijn Logo" class="logo" title="Logo VisitZaanstad">
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="contactpage.html">Contact</a></li>
+                <li><a href="walkinglocation.html">Walking</a></li>
+                <li><a href="placespage.html">Places</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article class="contactpaginabegin">
+        <p>Contact us</p>
+        <h1>Please contact us if you have any questions or if you have questions that are not answered on the website.</h1>
+    </article>
+
+    <article class="contactpagina">
+        <form action="contactpagina.html" method="post">
+            <label for="Name"><strong><p>Name</p></strong></label>
+            <textarea name="Name" id="Name" rows="4"></textarea>
+
+            <label for="Phonenumber"><p><strong>Phonenumber</strong></p></label>
+            <textarea name="Phonenumber" id="Phonenumber" rows="4"></textarea>
+
+            <figure class="contact-info">
+                <p>Contact Information</p>
+                <h1>Email: Info@Visitzaanstad.nl</h1>
+                <h1>Phonenumber: +31 012345678</h1>
+            </figure>
+
+            <label for="Email"><strong><p>Email *</p></strong></label>
+            <input type="email" name="email" id="emailInput" placeholder="Enter your email" required>
+
+            <label for="Message"><strong><p>Message *</p></strong></label>
+            <textarea name="Message" class="Message" rows="4" required></textarea>
+
+            <p class="required">
+                Fields with a (*) are required because we need enough information to give a response.
+            </p>
+
+            <button type="submit" class="submitbutton">Submit</button>
+
+            <figure class="gender-container">
+                <label for="Gender"><p>Gender</p></label>
+                <input type="radio" name="Gender" id="Male" value="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender" id="Female" value="Female">
+                <label for="Female">Female</label>
+            </figure>
+        </form>
+    </article>
+
+    <footer>
+        <img src="Images/Logowebdesign/Logo.png" alt="Mijn Logo" class="logo" title="Logo VisitZaanstad">
+        <p>&copy; 2023 VisitZaanstad</p>
+        <figure class="footer-buttons">
+            <a href="help.html" class="footer-button help">Help</a>
+            <a href="aboutus.html" class="footer-button">About Us</a>
+        </figure>
+    </footer>
+</body>
+</html>
